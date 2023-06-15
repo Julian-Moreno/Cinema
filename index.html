@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cinema B</title>
+    <link href="img/icon/icon.ico" rel="icon">
+    <link rel="stylesheet" href="css/basic/basic.css">
+    <link rel="stylesheet" href="css/inicio/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i" rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!--Barra de navegacion-->
+    <header>
+        <nav>
+            <section class="contenedor nav">
+                <div class="logo">
+                	<a href="index.html">
+                        <img src="img/logo/l0g0-1yty.png" alt="File not found">
+                    </a>
+                </div>
+                <div class="enlaces-header">
+                    <a href="index.html">Inicio</a>
+                    <a href="index.html#cartelera">Cartelera</a>
+                    <a href="promociones.html">Promociones</a>
+                    <a href="acerca_de.html">Acerca de</a>
+                </div>
+                <div class="hamburguer">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </section>
+        </nav>
+    </header>
+
+    <!--Trailer (Loop) o Imagen de inicio-->
+    <div class="section_trailer">
+        <iframe id="ytplayer" type="text/html" width="1349" height="760" allowfullscreen="1" src="https://www.youtube.com/embed/63DxDcZnEEU&t=11s?autoplay=1&loop=1&controls=0&playlist=63DxDcZnEEU&start=7&showinfo=0&mute=1&disablekb=1&modestbranding=1" frameborder="0" allowfullscreen wfd-invisible="true"></iframe>
+        <img src="img/posters/shin-gozilla-poster.jpg" id="poster">
+    
+        <!--DIV de imagen-->
+        <div class="trailer_inicio">
+            <div class="cartel_trailer">
+                <a href="Shin_Godzilla.html" class="cartel-link">
+                    <img class="cartel-trailer" src="img/posters/shin-gozilla-poster.jpg" alt="File not found">
+                </a>
+
+                <!--Nombre Pelicula de Trailer-->
+                <section class="descripcion_inicio">
+                    
+                    <!--Titulo-->
+                    <div class="titulo_destacado">
+                        <h3>Descataca de la semana</h3>
+                        <h1>Shin Gooozilla</h1>
+                    </div>
+
+                    <!--Descripcion-->
+                    <div class="description">
+                        <p> 
+                            Godzilla, fuerza destructiva insondable para el hombre, resucita en el Tokio
+                            de hoy en día para acosar de nuevo a la civilización. Un país aún atormentado 
+                            por las secuelas de un desastre natural, experimenta de repente el horror catastrófico de Godzilla.
+                            Apremiado por la muerte y la desesperación, Japón deberá encontrar el poder para superar este desafío.
+                        </p>
+                    </div>
+                </section>
+                
+                <!--Botones de Trailer-->
+                <div class="button">
+                    <button class="boton" id="button-boletos" type="button"><a href="Shin_Godzilla.html#boletos">Comprar Boletos</a></button>
+                    <button class="boton" id="button-trailer" type="button"><a href="Shin_Godzilla.html#trailer">Ver Trailer</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Contenido WEB-->
+    <div class="contenido" id="cartelera">
+        <!--Cartelera-->
+        <section class="posts_film">
+            <div class="catelera_section">
+                <div class="cartelera-posts_film">
+
+                    <!--Estrenos-->
+                    <div class="estrenos">
+                        <h4>Estrenos</h4>
+                        <div class="film_poster">
+                            <div class="poster">
+                                <i>
+                                    <a href="Rango.html">
+                                        <img height="320px" src="img/posters/99Dpm7Ep8OelbNyEVBlln50EHGj.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+
+                            <div class="poster">
+                                <i>
+                                    <a href="Shin_Godzilla.html">
+                                        <img height="320px" src="img/posters/sh1n0ZDJDSCal2Nhydfsdss0XxvH.png" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Populares-->
+                    <div class="populares">
+                        <h4>Peliculas populares</h4>
+                        <div class="film_poster">
+                            <div class="poster">
+                                <i>
+                                    <a href="Inmortales.html">
+                                        <img height="222px" src="img/posters/swJ3VuuSMJUDoi899VuXG5OqmPG.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+
+                            <div class="poster">
+                                <i>
+                                    <a href="Alien.html">
+                                        <img height="222px" src="img/posters/3QU9EP8BFLnTh6w9ycDSCvhqbRU.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+                                
+                            <div class="poster">
+                                <i>
+                                    <a href="Rango.html">
+                                        <img height="222px" src="img/posters/99Dpm7Ep8OelbNyEVBlln50EHGj.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Todas la peliculas-->
+                    <div class="all_film">
+                        <h4>Todas las peliculas</h4>
+                        <div class="film_poster">
+                            <div class="poster">
+                                <i>
+                                    <a href="Shin_Godzilla.html">
+                                        <img height="222px" src="img/posters/sh1n0ZDJDSCal2Nhydfsdss0XxvH.png" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+                            
+                            <div class="poster">
+                                <i>
+                                    <a href="Rango.html">
+                                        <img height="222px" src="img/posters/99Dpm7Ep8OelbNyEVBlln50EHGj.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+                            
+                            <div class="poster">
+                                <i>
+                                    <a href="Avatar.html">
+                                        <img height="222px" src="img/posters/btnl50ZDJDSCal2NLQIYWw0XxvH.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+                            
+                            <div class="poster">
+                                <i>
+                                    <a href="EL_rito.html">
+                                        <img height="222px" src="img/posters/gRTxM95huMwIDfZBJWjuifMTfpx.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+                            
+                            <div class="poster">
+                                <i>
+                                    <a href="El_cuervo.html">
+                                        <img height="222px" src="img/posters/qjrDnQNWOmHLiZTi6GnATt1Dczm.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+                            
+                            <div class="poster">
+                                <i>
+                                    <a href="Inmortales.html">
+                                        <img height="222px" src="img/posters/swJ3VuuSMJUDoi899VuXG5OqmPG.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+                            
+                            <div class="poster">
+                                <i>
+                                    <a href="Operacion_dragon.html">
+                                        <img height="222px" src="img/posters/zN7OOSARMLVzl9xJqkW2CcZ3xhY.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+
+                            <div class="poster">
+                                <i>
+                                    <a href="Alien.html">
+                                        <img height="222px" src="img/posters/3QU9EP8BFLnTh6w9ycDSCvhqbRU.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!--Pre Venta-->
+                    <div class="pre-venta">
+                        <h4>Pre Venta</h4>
+                        <div class="film_poster">
+                            <div class="poster">
+                                <i>
+                                    <a href="La_cura_siniestra.html">
+                                        <img height="222px" src="img/posters/d4fXuJS3zZcAZfz2HYDtnwqtnwn.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Proximos Estrenos-->
+                    <div class="proximos">
+                        <h4>Proximo estrenos</h4>
+                        <div class="film_poster">
+                            <div class="poster">
+                                <i>
+                                    <a href="La_cura_siniestra.html">
+                                        <img height="222px" src="img/posters/d4fXuJS3zZcAZfz2HYDtnwqtnwn.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+                            
+                            <div class="poster">
+                                <i>
+                                    <a href="La_naranja_mecanica.html">
+                                        <img height="222px" src="img/posters/4sHeTAp65WrSSuc05nRBKddhBxO.jpg" alt="File not found">
+                                    </a>
+                                </i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="partFooter">
+            <img src="" alt="">
+        </div>
+        <div class="partFooter">
+            <h4>Acerca de</h4>
+            <a href="acerca_de.html#covid">Medidas Sanitarias</a>
+            <a href="acerca_de.html#ubicacion">Ubicación</a>
+            <a href="acerca_de.html#historia">Historia</a>
+        </div>
+        <div class="partFooter">
+            <h4>Redes sociales</h4>
+            <div class="social-media">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

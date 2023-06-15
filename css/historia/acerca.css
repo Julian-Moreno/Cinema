@@ -1,0 +1,107 @@
+.container {
+    width: 93%;
+    max-height: 93%;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 64px;
+    padding-right: 3%;
+}
+
+.container p{
+    color: #bdbdbd;
+    font-family: Lato;
+    font-size: 20px;
+}
+
+.container h1, h3, i{
+    color: #fff;
+    font-family: Lato;
+}
+
+#covid .icono>i {
+    color: #db0000;
+}
+
+#titulo {
+    padding-top: 22px;
+}
+
+.title> img {
+    position: relative;
+    margin-left: 156px;
+    margin-top: -53px;
+    height: 80px;
+    margin-bottom: 38px;
+}
+
+.mision {
+    padding-bottom: 30px;
+}
+
+.vision {
+    padding-bottom: 30px;
+}
+
+.politica {
+    padding-bottom: 30px;
+}
+
+.mision> h3{
+    font-size: 18px;
+}
+
+.vision> h3{
+    font-size: 18px;
+}
+
+.politica> h3{
+    font-size: 18px;
+}
+
+.contenedor> h1 {
+    font-size: 22px;
+}
+
+#ubicacion {
+    padding-top: 36px;
+}
+
+#ubicacion i {
+    color: #F39422;
+    font-size: 40px;
+    padding-right: 10px;
+    padding-bottom: 16px;
+}
+
+#ubicacion iframe {
+    margin-bottom: 30px;
+    border-radius: 1rem;
+}
+
+#covid i {
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+#covid> .icono #bio{
+    margin-left: 10px;
+}
+
+#covid .icono {
+    margin-top: 6px ;
+    padding-left: 32px;
+    margin-bottom: 28px;
+}
+
+#covid> #metodos {
+    margin-left: 32px;
+    margin-bottom: 19px;
+}
+
+#covid> .medidas i {
+    color: #00acca;
+}
+
+#covid #metodos i {
+    color: #00acca;
+}

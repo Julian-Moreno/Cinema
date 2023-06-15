@@ -1,0 +1,202 @@
+/*Section Trailer*/
+.section_trailer> #poster{
+    position: relative;
+    display: none;
+}
+
+#ytplayer {
+    position: absolute;
+    z-index: -1;
+    margin-top: -7.2%;
+}
+
+.cartel_trailer {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 48px;
+    z-index: 1;
+}
+
+.cartel-link img{
+    width: 13%; 
+    height: auto;
+    margin: 50px 36px 42px 30px;
+    border-radius: 1rem;
+}
+
+.button {
+    margin-left: 255px;
+}
+
+#button-boletos {
+    background-color: #F39422;
+    font-size: 15px;
+    border: 2px solid #F39422;
+    border-radius: 12rem;
+    padding: 18px 18px 18px 18px;
+}
+
+#button-boletos:hover {
+    border: 2px solid #aa8a29;
+    background-color: #aa8a29;
+    transition: all ease-in-out .3s;
+}
+
+#button-trailer {
+    background-color: rgba(0, 0, 0, 0.0);
+    font-size: 15px;
+    border: 2px solid rgb(173, 173, 173);
+    border-radius: 12rem;
+    padding: 18px 18px 18px 18px;
+}
+
+#button-trailer:hover {
+    background-color: rgb(173, 173, 173);
+    transition: all ease-in-out .3s;
+}
+
+.boton a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#button-trailer {
+    margin-left: 22px;
+}
+
+.descripcion_inicio {
+    font-family: Lato;
+    color: #fff;
+    padding-left: 255px;
+    padding-right: 400px;
+    margin-top: -360px;
+    padding-bottom: 44px;
+}
+
+.titulo_destacado h3 {
+    margin-top: 70px;
+    font-size: 16pt;
+    padding-bottom: 20px;
+}
+
+.titulo_destacado h1 {
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+.description {
+    margin-top: 14px;
+    font-size: 13pt;
+}
+
+/*Contenido Posters*/
+.estrenos {
+    margin-top: -16px;
+}
+
+.contenido h4 {
+    font-family: Lato;
+    color: #fff;
+    font-size: 16pt;
+    padding-bottom: 18px;
+}
+
+.film_poster {
+    margin-bottom: 50px;
+}
+
+.poster {    
+    display: inline;
+    position:relative;
+}
+
+.poster img {
+    transition: all ease-in-out .3s;
+    margin-right: 10px;
+    border-radius: 0.6rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+}
+
+.poster a {
+    text-decoration: #2B2B2B;
+}
+
+.poster img:hover {
+    transition: all ease-in-out .3s;
+    opacity: .72;
+}
+
+/*-----Responsive-----*/
+@media screen and (max-width:800px) {
+    #ytplayer {
+        display: none;
+    }
+
+    .description {
+        display: none;
+    }
+
+    .cartel-link img{
+        width: 20%; height: auto;
+        padding-top: 1.5%;
+    }
+
+    .cartel-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section_trailer> #poster{
+        display: block;
+        max-width: 800px;
+        margin-top: -500px;
+        z-index: -1;
+    }
+
+    .cartel_trailer {
+        margin-top: -84.5%;
+        z-index: 1;
+    }
+
+    .descripcion_inicio {
+        margin-top: -14%;
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-bottom: 50px;
+    }
+
+    .button {
+        margin-left: 0%;
+        padding-top: 0%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #button-boletos {
+        padding: 8px 72px 8px 72px;
+    }
+
+    #button-trailer {
+        padding: 8px 72px 8px 72px;
+    }
+
+    .titulo_destacado h3 {
+        margin-top: 9%;
+        font-size: 12pt;
+        padding-bottom: 2%;
+        padding-right: 0%;
+        padding-left: 0%;
+        text-align: center;
+    }
+    
+    .titulo_destacado h1 {
+        padding-bottom: 0%;
+        font-size: 30px;
+        padding-right: 0%;
+        padding-left: 0%;
+        text-align: center;
+    }
+}

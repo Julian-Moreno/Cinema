@@ -1,0 +1,190 @@
+.catelera_section {
+    font-family: Lato;
+}
+
+.title {
+    color: #e4e4e4;
+    font-size: 16pt;
+}
+
+.respuesta {
+    color: #9c9c9c;
+    font-size: 12pt;
+    margin-top: -24px;
+    margin-left: 170px;
+    margin-bottom: 22px;
+}
+
+.clasificacion>.respuesta {
+    transition:.3s;
+    transition: transform .3s;
+    font-size: 18pt;
+    border: 2px solid #9c9c9c;
+    margin-top: -38px;
+    padding-top: 6px;
+    padding-left: 14px;
+    padding-bottom: 8px;
+    border-radius: .8rem;
+    margin-right: 78%;
+}
+
+.apta_para {
+    transition:.8s;
+    display: none;
+    position: relative;
+    color: #fff;
+    font-size: 13pt;
+    background: linear-gradient(150deg, rgba(1, 0, 56, 1) 19%, rgba(83, 126, 197, 1) 100%);
+    border-radius: 2rem;
+    padding: 16px 16px 16px 16px;
+}
+
+.clasificacion>.title {
+    padding-top: 20px;
+}
+
+.clasificacion>.respuesta:hover {
+    color: #EABE3F;
+    border: 2px solid #EABE3F;
+    transition:.3s;
+    transition: transform .3s;
+    transform: scale(1.2);
+}
+
+.clasificacion>.respuesta:hover + .apta_para {
+    transition:.8s;
+    display: inline-table;
+    margin-bottom: 20px;
+}
+
+.pelicula>img {
+    width: 20%;
+    border-radius: 1rem;
+}
+
+.datos {
+    position: relative;
+    margin: -29.5% 0 0 23%;
+}
+
+.titulo {
+    color: #e4e4e4;
+    font-size: 20pt;
+}
+
+.pais {
+    color: #9c9c9c;
+    font-size: 14pt;
+    margin-top: -24px;
+    margin-left: 170px;
+    margin-bottom: 22px;
+    margin-right: 11%;
+}
+
+.sinopsis h3{
+    color: #e4e4e4;
+    font-size: 16pt;
+}
+
+.sinopsis p {
+    color: #9c9c9c;
+    font-size: 12pt;
+    margin-top: -24px;
+    margin-left: 170px;
+    margin-bottom: 22px;
+    margin-right: 11%;
+}
+
+.director h3 {
+    color: #e4e4e4;
+    font-size: 16pt;
+}
+
+.director p {
+    color: #9c9c9c;
+    font-size: 12pt;
+    margin-top: -24px;
+    margin-left: 170px;
+    margin-right: 11%;
+    margin-bottom: 22px;
+}
+
+.director {
+    padding-bottom: 3.7%;
+}
+
+#trailer h3{
+    color: #EABE3F;
+    font-size: 17pt;
+    margin-bottom: 16px;
+    padding-top: 16px;
+}
+
+#trailer {
+    margin-bottom: 23px;
+}
+
+#boletos {
+    padding-top: 40px;
+    margin-left: 32px;
+}
+#boletos h3, h4 {
+    color: #e4e4e4;
+}
+
+#boletos> h3 {
+    font-size: 18pt;
+}
+
+#boletos i {
+    color: #fff;
+    font-size: 37px;
+    padding-right: 11px;
+    padding-bottom: 5px;
+}
+
+.horario h3{
+    padding-top: 14px;
+    font-size: 14pt;
+}
+
+.hora a {
+    transition:.3s;
+    text-decoration: none;
+    font-size: 18px;
+    color: #9c9c9c;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button a {
+    transition:.3s;
+    border: 2px solid #EABE3F;
+    border-radius: 12rem;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 10px 32px 10px 32px;
+    margin: 18px 0 20px 32px;
+}
+
+button a:hover {
+    transition:.4s;
+    color: #fff;
+    border: 2px solid #537EC5;
+    background-color: #537EC5;
+}
+
+.hrs {
+    margin-top: 16px;
+    margin-left: 4.6%;
+    margin-bottom: 46px;
+}
+
+.hrs h4 {
+    font-size: 16px;
+    color: #fff;
+}
